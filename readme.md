@@ -17,13 +17,4 @@ KEY FINDINGS:
 The precision of statistical and generative approaches was exactly the same when comparing the extracted samples. This suggests that although both TF-IDF and LLMs can effectively identify high-frequency vocabulary, this does not necessarily translate into domain specificity.
 The main source of receiving a FP result in both approaches was the truncation of multi-word terms to single words. Instead of considering the term as a whole, the methods often selected only a fragment that appeared more frequently across different contexts. This tendency was particularly noticeable in terms such as "services", "regulations" and "security". Interestingly, some false positives were identified by both approaches, suggesting that both struggle to determine whether a term should be treated as a single word or as a pert of a multi-word expression. Unigram candidates often captured general legal vocabulary or overly broad nouns. However, overlap was also observed among TPs, including terms such as "digital", "cybersecurity" and "Member States".
 In conclusion, neither TF-IDF nor zero-shot LLMs provided a sufficiently accurate list of terminology extracted from the legal texts. Human expertise therefore remains indispensable, particulatly in institutional environments, where it is needed to filter out FPs and develop standardized glossaries. 
-
-PROJECT STRUCTURE: 
-
-terminology-extraction/
-├── data/                    
-├── notebooks/
-│   └── terminology_extraction.ipynb  
-├── results/
-│   ├── candidate_terms.csv                           
-└── README.md                
+               
