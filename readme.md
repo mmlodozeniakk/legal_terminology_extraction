@@ -1,4 +1,5 @@
 TERMINOLOGY EXTRACTION: AI-DRIVEN AND STATISTICAL APPROACH COMPARISON:
+
 A comparative evaluation of statistical and generative extraction models conducted on European Union legal corpora
 
 GOAL OF THE ANALYSIS:
